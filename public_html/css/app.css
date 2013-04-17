@@ -12,8 +12,8 @@ div.head{
 }
 
 hr {
-	color: #f00;
-	background-color: #f00;
+	color: #155FBF;
+	background-color: #155FBF;
 	height: 7px;
 }
 
@@ -30,14 +30,29 @@ h2.subhead {
 	font-family: 'Noto Sans', sans-serif;
 }
 
+.toppics{
+	text-align: justify;
+    -ms-text-justify: distribute-all-lines;
+    text-justify: distribute-all-lines;
+
+}
 
 .factory{
 	width: 250px;
 	height: 150px;
-	padding:1px;
+	vertical-align: top;
+    display: inline-block;
+    *display: inline;
+    zoom: 1;
    	border:4px solid #A37B31;
 }
 
+.stretch {
+    width: 100%;
+    display: inline-block;
+    font-size: 0;
+    line-height: 0
+}
 .callus{
 	width: 10%;
 	height: 10%;
