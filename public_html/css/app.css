@@ -54,20 +54,23 @@ h2.subhead {
     line-height: 0
 }
 .callus{
-	width: 10%;
-	height: 10%;
+	width: 50%;
+	height: 50%;
 	bottom: 0;
-	display: inline-block;
+	vertical-align:middle
 
 }
 .phone{
 
-	font-size: 40px;
-	display: inline-block;
-
+	font-size: 49px;
+	margin-top: 8%;
+}
+.contactus{
+	margin-top: 8%;
 }
 
-.original {
+.original { 
+	text-decoration: line-through;
 	text-align: justify;
 	font-weight:bold;
 	font-size: 15px;
