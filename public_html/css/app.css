@@ -86,6 +86,7 @@ h2.subhead {
 
 .myside{
 	padding: 25px;
+	width: 15%;
 	border-radius: 2px;
 }
 
@@ -98,4 +99,10 @@ h2.subhead {
 
 	width: 60%;
 	height: 60%;
+}
+
+i.arrow {
+	float: right;
+	margin-top: 5px;
+	margin-right: 3px;
 }
