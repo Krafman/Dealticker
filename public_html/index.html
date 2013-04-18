@@ -714,32 +714,36 @@
                           <ul class="unstyled">
                             <li> <h5> STEEL DOORS </h5></li>
                               <ul>
-                                <li>Steel doors available in factory white included in price. Paint options are available and subject to extra charge.</li>
-                                <li> ... </li>
+                                <li>Insulated steel doors available in factory-finish white.</li>
+                                <li>Vinyl-clad frame.</li>
+                                <li>6 5/8" x 1 1/4" vinyl-clad jamb.</li>
+                                <li>Ball-bearing hinges</li>
+                                <li>Foam weather stripping </li>
+                                <li>Vinyl-clad brickmould</li>
                               </ul>
                             <li> <h5> FIBERGLASS DOORS </h5> </li>
                               <ul>
-                                <li> Fiberglass doors available in factory finish, included in price. Stain options are available and subject to extra charge. </li>
-                                <li> ... </li>
+                                <li> Wood grain fiberglass doors </li>
+                                <li> 6 5/8" x 1 1/4" wood-grain composite jamb </li>
+                                <li> Ball-bearing hinges </li>
+                                <li> Foam weather stripping </li>
+                                <li> wood-grain composite brickmould </li>
                               </ul>
                           </ul>
                         <h4> OPTIONS </h4>
                           <ul>
-                            <li> Doors are pre-hung in door frame. </li>
-                            <li> Installations must be done by Door Manufacturer Direct. </li>
+
+                            <li> <button class="btn btn-small btn-danger" aria-hidden="true" href="#fgModal" 
+            onclick="$('#fgModal').modal({ backdrop: false })"> Fiberglass Stain Options </button> </li> </br>
 
 
+                           <li><button class="btn btn-small btn-danger " aria-hidden="true" href="#stModal" 
+            onclick="$('#stModal').modal({ backdrop: false })"> Steel Colour Options </button> </li> </br>
 
 
-
-
-
-
-
-
-
-
-
+                            <li> <button class="btn btn-small btn-danger" aria-hidden="true" href="#lkModal" 
+            onclick="$('#lkModal').modal({ backdrop: false })"> Lock Options </button> </li> 
+                          </ul>
                     </div>
                 </div>
                 <div class="modal-footer">
@@ -747,7 +751,59 @@
                 </div>
           </div>
 
-<!-- BUYMODAL -->
+
+          <!-- FB SWATCH MODAL -->
+            <div id="fgModal" class="modal hide fade in" tabindex="-1" role="dialog" aria-labelledby="fgModalLabel" aria-hidden="false">
+                <div class="modal-header">
+                    <button class="close" aria-hidden="true" data-dismiss="modal" type="button">X</button>
+                    <h3 id="fgModalLabel">Fiberglass Door Color Swatches</h3>
+                </div>
+                <div class="modal-body">
+                    <div id="modalBodyContent" class="divDialogElements">
+                        <!-- Email <input type="text" name="xlInput" id="xlInput" class="xlarge"> -->
+                        <img src="img/fb-swatch.jpg" />
+                        
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button class="btn" data-dismiss="modal" aria-hidden="true">Back</button>
+                </div>
+          </div>
+          <!-- LK SWATCH MODAL -->
+            <div id="lkModal" class="modal hide fade in" tabindex="-1" role="dialog" aria-labelledby="lkModalLabel" aria-hidden="false">
+                <div class="modal-header">
+                    <button class="close" aria-hidden="true" data-dismiss="modal" type="button">X</button>
+                    <h3 id="lkModalLabel">Lock Options</h3>
+                </div>
+                <div class="modal-body">
+                    <div id="modalBodyContent" class="divDialogElements">
+                        <!-- Email <input type="text" name="xlInput" id="xlInput" class="xlarge"> -->
+                        <img src="img/lk-swatch.jpg" />
+                        
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button class="btn" data-dismiss="modal" aria-hidden="true">Back</button>
+                </div>
+          </div>
+          <!-- ST SWATCH MODAL -->
+            <div id="stModal" class="modal hide fade in" tabindex="-1" role="dialog" aria-labelledby="stModalLabel" aria-hidden="false">
+                <div class="modal-header">
+                    <button class="close" aria-hidden="true" data-dismiss="modal" type="button">X</button>
+                    <h3 id="stModalLabel">Steel Door Color Swatches</h3>
+                </div>
+                <div class="modal-body">
+                    <div id="modalBodyContent" class="divDialogElements">
+                        <!-- Email <input type="text" name="xlInput" id="xlInput" class="xlarge"> -->
+                        <img src="img/st-swatch.jpg" />
+                        
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button class="btn" data-dismiss="modal" aria-hidden="true">Back</button>
+                </div>
+          </div>
+          <!-- BUYMODAL -->
         <div id="buyModal" class="modal hide fade in" tabindex="-1" role="dialog" aria-labelledby="buyModalLabel" aria-hidden="false">
                 <div class="modal-header">
                     <button class="close" aria-hidden="true" data-dismiss="modal" type="button">X</button>
@@ -757,7 +813,7 @@
                     <div id="modalBodyContent" class="divDialogElements">
                         <!-- Email <input type="text" name="xlInput" id="xlInput" class="xlarge"> -->
                         <iframe height="600" width="300" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="./contact/contactform.php">
-                        sidelite>
+                        
                     </div>
                 </div>
                 <div class="modal-footer">
@@ -765,6 +821,7 @@
                     <button id="sendPassword" class="btn btn-primary">Send password</button>
                 </div>
           </div>
+
 
 
 
