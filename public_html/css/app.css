@@ -30,6 +30,17 @@ h2.subhead {
 	font-family: 'Noto Sans', sans-serif;
 }
 
+h4.options{
+	-webkit-margin-after: 0.1em;
+
+}
+
+.smallcharges{
+	font-size: 45%;
+	margin-right: 0%;
+	text-align: right;
+}
+
 .toppics{
 	text-align: justify;
     -ms-text-justify: distribute-all-lines;
