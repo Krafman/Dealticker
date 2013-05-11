@@ -7,6 +7,7 @@ body {
 }
 
 div.head{
+
 	padding-top: 20px;
 
 }
@@ -124,10 +125,15 @@ i.arrow {
 
 
 .modal {
-    margin-top: 0.05%;
+    margin-top: -4%;
 }
 .modal-body {
-    max-height: 580px;
+    max-height: 40%;
+}
+
+.modal-body img{
+
+	max-height: 75%;
 }
 
 .modal-footer {
@@ -140,4 +146,9 @@ i.arrow {
 ul.options {
 
 	width: 35%;
+}
+
+iframe {
+
+	height: 400px;
 }

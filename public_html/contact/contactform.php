@@ -49,7 +49,7 @@ if(isset($_POST['submitted']))
 <!-- Form Code Start -->
 <form id='contactus' action='<?php echo $formproc->GetSelfScript(); ?>' method='post' accept-charset='UTF-8'>
 <fieldset >
-<legend>Fill out your information below:</legend>
+<!-- <legend>Fill out your information below:</legend> -->
 
 <input type='hidden' name='submitted' id='submitted' value='1'/>
 <input type='hidden' name='<?php echo $formproc->GetFormIDInputName(); ?>' value='<?php echo $formproc->GetFormIDInputValue(); ?>'/>

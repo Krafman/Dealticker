@@ -2,3 +2,8 @@ label {
   display: initial;
 
 }
+
+textarea {
+	height: 100px;
+}
+
